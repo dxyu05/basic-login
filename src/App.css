@@ -1,5 +1,26 @@
+body {
+  background-color: blue;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 2s ease-in-out;
+}
+
 .App {
   text-align: center;
+}
+
+h1 {
+  color: rgb(36, 36, 91);
 }
 
 form {
@@ -8,6 +29,7 @@ form {
 }
 
 label {
+  color: rgb(35, 35, 108);
   margin-right: 8px;
 }
 
@@ -17,5 +39,6 @@ input {
 
 button {
   display: block;
+  background-color: rgba(255, 255, 255, 0.5); 
   margin-top: 10px;
 }
